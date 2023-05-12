@@ -20,3 +20,22 @@ const anoTherFn = async (urlApi) => {
     }
 }
 anoTherFn(API);
+
+class Vaca {
+    constructor (pati, cuki, yuyi) {
+        this.pati = pati;
+        this.cuki = cuki;
+        this.yuyi = yuyi
+    }
+}
+
+const negra = new Vaca ('cuatro', 2, 'yellow');
+const petro = new Vaca ('guerrillo', 4, 'rojo');
+console.log(petro);
+console.log(negra);
+console.log(negra.yuyi);
+negra.africa = 'congo';
+console.log(negra);
+const santos = new Vaca ('tres', null, 'buitre');
+santos
+console.log(santos.cuki);
