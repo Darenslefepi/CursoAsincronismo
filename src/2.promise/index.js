@@ -2,7 +2,7 @@ const promise = new Promise(function (resolve, reject) {
     resolve('hey!')
 });
 
-const cows = 111;
+const cows = 1;
 
 const countCows = new Promise(function (resolve, reject) {
     if (cows > 10) {
@@ -28,7 +28,7 @@ function delay(time, message) {
     });
   }
 //crando una variable pro
-  export function delay(time, message) {
+  export function delayy(time, message) {
     const pro = new Promise(function (resolve, reject) {
       if (time >= 0) {
         window.setTimeout(() => {
